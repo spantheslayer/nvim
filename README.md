@@ -1,15 +1,21 @@
 # NeoVim Setup 
 **Install NeoVim**
+> On Arch
 
     sudo pacman -S neovim
+> On Ubuntu
 
+    sudo apt install neovim 
+> On Fedora
+
+    dnf install neovim
 **Clone the repo ⤵️**
 
     cd .config && git clone https://github.com/spantheslayer/nvim.git && cd nvim 
 **Open `nvim`**
 	
 
-    :PlusInstall     (hit enter)
+    :PlugInstall     (hit enter)
 
 
 
